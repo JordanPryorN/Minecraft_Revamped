@@ -26,6 +26,7 @@ public void load(FMLPreInitializationEvent e)
 
 //block inputs
 oreCopper = new BlockCopperOre(230).setStepSound(Block.soundStoneFootstep).setHardness(3F).setResistance(1.0F).setBlockName("oreCopper").setCreativeTab(CreativeTabs.tabBlock);
+stoneMarble = new BlockStoneMarble(231).setStepSound(Block.soundStoneFootstep).setHardness(3F).setResistance(1.0F).setBlockName("stoneMarble").setCreativeTab(CreativeTabs.tabBlock);
 
 //game registers (blocks only)
 GameRegistry.registerBlock(oreCopper);
