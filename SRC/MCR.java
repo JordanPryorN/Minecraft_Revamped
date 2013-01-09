@@ -15,6 +15,7 @@ public static MCR instance;
 
 //Block Static(S)
 public static Block oreCopper;
+public static Block stoneMarble;
 
 //item statics
 public static Item ingotCopper;
